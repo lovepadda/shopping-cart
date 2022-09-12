@@ -1,0 +1,57 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 10;
+    background-color:#ececec;
+    padding: 10;
+    width: 20%;
+
+}
+
+.cart{
+    font-size: 30px;
+    align-self: center;
+}
+
+.cart2{
+    align-self: center;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.title{
+    display: flex;
+    padding: 10px;
+    border: 1px solid grey;
+    margin: 5px;
+    justify-content: space-between;
+}
+
+.img{
+    width: 70%;
+    object-fit: cover;
+}
+
+.carttext{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.cartstyle{
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.span{
+    padding: 20px;
+    align-self: center;
+
+}
+
